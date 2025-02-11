@@ -1,0 +1,5 @@
+set(SRC_DIR ".")  # 设置源文件目录
+file(GLOB_RECURSE SRC_LIST "${SRC_DIR}/*.cc")  # 递归获取目录下所有.cc文件
+
+add_library(simpleRpc ${SRC_LIST})
+target_link_libraries(simpleRpc pthread)
