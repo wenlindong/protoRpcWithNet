@@ -30,7 +30,7 @@
    2、进入解压后的文件夹：cd protobuf-master
    3、安装所需工具：sudo apt-get install autoconf automake libtool curl make g++ unzip
    4、自动生成confifigure配置文件：./autogen.sh
-   5、配置环境：./confifigure 
+   5、配置环境：./configure 
    6、编译源代码：make
    7、安装：sudo make install
    8、刷新动态库：sudo ldconfig
