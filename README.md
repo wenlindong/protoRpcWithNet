@@ -23,7 +23,7 @@
 本项目依赖了第三方库Protobuf，环境配置如下：
 
    - **ubuntu下 protobuf**环境搭建
-     - 在**github**源代码下载地址：[](https://github.com/google/protobuf)，源码包中的src/README.md里有详细的安装说明，安装过程如下：
+     - 在**github**源代码下载地址：[https://github.com/google/protobuf](https://github.com/google/protobuf)，源码包中的src/README.md里有详细的安装说明，安装过程如下：
 
    ```tex
    1、解压压缩包：unzip protobuf-master.zip
