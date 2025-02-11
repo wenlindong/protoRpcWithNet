@@ -1,9 +1,9 @@
 #pragma once
 #include "google/protobuf/service.h"
-#include <mymuduo/TcpServer.h>
-#include <mymuduo/EventLoop.h>
-#include <mymuduo/InetAddress.h>
-#include <mymuduo/TcpConnection.h>
+#include <TcpServer.h>
+#include <EventLoop.h>
+#include <InetAddress.h>
+#include <TcpConnection.h>
 #include <string>
 #include <functional>
 #include <google/protobuf/descriptor.h>
